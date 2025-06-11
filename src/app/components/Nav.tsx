@@ -53,7 +53,7 @@ const Nav = () => {
           } w-full md:flex md:items-center md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4`}
         >
           <Link href="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded hover:bg-gray-700">Home</Link>
-          <Link href="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded hover:bg-gray-700">Shop</Link>
+          <Link href="/shop" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded hover:bg-gray-700">Shop</Link>
           <Link href="/about" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded hover:bg-gray-700">About</Link>
           <Link href="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded hover:bg-gray-700">Contact</Link>
         </div>
