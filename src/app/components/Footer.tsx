@@ -23,6 +23,7 @@ export default function Footer() {
           <h3 className="text-white text-lg font-semibold mb-4">Navigation</h3>
           <ul className="space-y-2">
             <li><Link href="/" className="hover:underline">Home</Link></li>
+            
             <li><Link href="/community-forum" className="hover:underline">Community Forum</Link></li>
             <li><Link href="/events" className="hover:underline">Events and Opportunities</Link></li>
             <li><Link href="/contact" className="hover:underline">Contact Us</Link></li>
